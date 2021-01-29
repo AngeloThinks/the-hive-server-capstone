@@ -1,6 +1,6 @@
 'use strict';
 const engineerService = {
-  getAllWalkers(db){
+  getAllEngineers(db){
     return db
       .select('*')
       .from('engineers');
