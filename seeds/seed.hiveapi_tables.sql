@@ -12,17 +12,17 @@ VALUES
 
 INSERT INTO engineers(first_name)
 VALUES
-  ('Angelo V.'),
-  ('Ross Kelly'),
-  ('Pat Martone'),
-  ('Christian Michael');
+  ('Sean Michaels'),
+  ('Flava Flav'),
+  ('Mr. T'),
+  ('Steve Jobs');
 
 INSERT INTO services (type , price)
 VALUES
-  ('Single song mastered','$25'),
-  ('Two songs mastered','$50'),
-  ('Three songs mastered','$75'),
-  ('Four songs mastered','$100');
+  ('Single dog','$20'),
+  ('Two dogs','$25'),
+  ('Three dogs','$30'),
+  ('Four dogs (Maximum)','$35');
 
 COMMIT;
 

@@ -38,7 +38,7 @@
 ## Routes
 
 app.use('/hive/auth',authRouter);
-app.use('/hive/walker',walkerRouter);
+app.use('/hive/engineer',engineerRouter);
 app.use('/hive/services',serviceRouter);
 app.use('/hive/appointment',appointmentRouter);
 
@@ -56,7 +56,7 @@ Allows one to post a new user with the required body data.
 
 ### '/hive/auth/token' provides authentication tokens via post
 
-###  '/hive/walker' provides get information from dog walker database
+###  '/hive/engineer' provides get information from dog engineer database
 
 ### '/hive/services' provides get information from services database
 
