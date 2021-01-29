@@ -1,4 +1,5 @@
-const request = require("supertest")("https://coviddogwalking.herokuapp.com/hiveapi");
+// const request = require("supertest")("https://angelovazquez.herokuapp.com/hiveapi");
+const request = require("supertest")("http://localhost:8000");
 const expect = require("chai").expect;
 
 describe("GET /services", function () {
