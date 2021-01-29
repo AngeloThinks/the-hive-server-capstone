@@ -1,4 +1,5 @@
-const request = require("supertest")("https://coviddogwalking.herokuapp.com/hiveapi");
+const request = require("supertest")(`"http://localhost:${PORT}"`);
+//add heroku db or mongodb
 const expect = require("chai").expect;
 
 describe("GET /engineer", function () {
