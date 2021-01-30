@@ -2,6 +2,7 @@ require("dotenv").config();
 module.exports = {
     migrationDirectory: "migrations",
     driver: "pg",
+    ssl: "true",
     host: process.env.MIGRATION_DB_HOST,
     port: process.env.MIGRATION_DB_PORT,
     database: process.env.MIGRATION_DB_NAME,
