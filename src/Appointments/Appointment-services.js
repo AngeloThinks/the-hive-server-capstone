@@ -11,7 +11,7 @@ const AppointmentService = {
       )
       .leftJoin(
         'engineers',
-        'app.walker_id',
+        'app.engineer_id',
         'engineers.id'
       )
       .leftJoin(
@@ -35,7 +35,7 @@ const AppointmentService = {
       )
       .leftJoin(
         'engineers',
-        'app.walker_id',
+        'app.engineer_id',
         'engineers.id' 
       )
       .leftJoin(
