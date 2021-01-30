@@ -3,5 +3,4 @@ CREATE TABLE Appointments(
     time TEXT NOT NULL,
     tomorrow TEXT,
     date_created TIMESTAMP DEFAULT now() NOT NULL
-    
 );

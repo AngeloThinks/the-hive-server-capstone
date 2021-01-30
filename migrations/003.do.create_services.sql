@@ -3,7 +3,6 @@ CREATE TABLE services (
     type TEXT NOT NULL,
     price TEXT NOT NULL
 );
-
 ALTER TABLE Appointments
   ADD COLUMN
     services_id INTEGER REFERENCES services(id)
