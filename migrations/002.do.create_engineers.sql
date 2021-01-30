@@ -5,6 +5,6 @@ CREATE TABLE engineers (
 
 ALTER TABLE Appointments
   ADD COLUMN
-    walker_id INTEGER REFERENCES engineers(id) 
+    engineer_id INTEGER REFERENCES engineers(id) 
     ON DELETE SET NULL;
     

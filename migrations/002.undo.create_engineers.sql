@@ -1,4 +1,4 @@
-ALTER TABLE appointments DROP COLUMN walker_id;
+ALTER TABLE appointments DROP COLUMN engineer_id;
 
 DROP TABLE IF EXISTS engineers;
 
