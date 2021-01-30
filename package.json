@@ -1,7 +1,7 @@
 {
   "name": "the-hive-server",
   "version": "1.0.0",
-  "description": "---------------------------------------------------------------------------------",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
@@ -29,7 +29,7 @@
     "migrate": "^1.6.2",
     "morgan": "^1.9.1",
     "pg": "^7.8.2",
-    "postgrator-cli": "^4.0.0",
+    "postgrator-cli": "^3.3.0",
     "xss": "^1.0.6"
   },
   "devDependencies": {
