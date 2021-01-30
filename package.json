@@ -10,7 +10,6 @@
     "migrate-test": "postgrator --config postgrator-test-config.js",
     "migrate-production": "postgrator --config production-postgrator-config.js",
     "start": "node src/server.js",
-    "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
   "keywords": [],
@@ -29,7 +28,7 @@
     "knex": "^0.17.0",
     "migrate": "^1.6.2",
     "morgan": "^1.9.1",
-    "pg": "^7.11.0",
+    "pg": "^7.8.2",
     "postgrator-cli": "^4.0.0",
     "xss": "^1.0.6"
   },
@@ -41,13 +40,5 @@
   },
   "directories": {
     "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AngeloThinks/the-hive-server-capstone.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AngeloThinks/the-hive-server-capstone/issues"
-  },
-  "homepage": "https://github.com/AngeloThinks/the-hive-server-capstone#readme"
+  }
 }
