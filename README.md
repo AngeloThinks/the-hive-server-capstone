@@ -11,7 +11,7 @@
 ---------------------------------------------------------------------------------
 ## About:
 
-The Hive is a service for musicians to utilize the services of our Audio Engineers and Producers. This app will allow users to book a session with the Engineer of their choice.
+The Hive is a service for musicians that are too busy to do it all. There's production, practicing, mixing, and mastering. Hive is here to help the user utilize the services of our Audio Engineers and Producers. This app will allow users to book a session with the Engineer of their choice through an appointment system.
 
 ---------------------------------------------------------------------------------
 
