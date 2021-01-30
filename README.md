@@ -2,11 +2,11 @@
 
 ---------------------------------------------------------------------------------
 
- [Live Demo:]() 
+ [Live Demo]() 
  
- [Client Repo:]() 
+ [Client Repo]() 
 
- [Server Repo:](https://github.com/AngeloThinks/the-hive-server-capstone.git) 
+ [Server Repo](https://github.com/AngeloThinks/the-hive-server-capstone.git) 
  
 ---------------------------------------------------------------------------------
 ## About:
