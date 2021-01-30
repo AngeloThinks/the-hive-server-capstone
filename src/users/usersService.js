@@ -7,10 +7,10 @@ const bcrypt = require('bcryptjs');
 const usersService = {
   hasUserWithUserName(db, user_name) {
     return db('hiveapi_users')
-      .select("*")
+      // .select("*")
       .where({ user_name })
       .first()
-      // .then(user => !!user);
+      .then(user => !!user);
   },
   insertUser(db, newUser) {
     return db
