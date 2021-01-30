@@ -9,7 +9,7 @@ CREATE TABLE hiveapi_users (
   date_created TIMESTAMP DEFAULT now() NOT NULL,
   date_modified TIMESTAMP
 );
-ALTER TABLE Appointments
+ALTER TABLE appointments
   ADD COLUMN
     users_id INTEGER REFERENCES hiveapi_users(id)
     ON DELETE SET NULL;

@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS Appointments;
+DROP TABLE IF EXISTS appointments;

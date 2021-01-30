@@ -3,7 +3,7 @@ CREATE TABLE engineers (
     first_name TEXT NOT NULL
 );
 
-ALTER TABLE Appointments
+ALTER TABLE appointments
   ADD COLUMN
     engineer_id INTEGER REFERENCES engineers(id) 
     ON DELETE SET NULL;

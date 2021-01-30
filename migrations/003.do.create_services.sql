@@ -3,7 +3,7 @@ CREATE TABLE services (
     type TEXT NOT NULL,
     price TEXT NOT NULL
 );
-ALTER TABLE Appointments
+ALTER TABLE appointments
   ADD COLUMN
     services_id INTEGER REFERENCES services(id)
     ON DELETE SET NULL;
