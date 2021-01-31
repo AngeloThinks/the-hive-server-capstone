@@ -2,11 +2,14 @@
 
 ---------------------------------------------------------------------------------
 
- [Live Demo]() 
- 
- [Client Repo]() 
+ [Live Demo](https://the-hive-client-capstone.vercel.app)
 
- [Server Repo](https://github.com/AngeloThinks/the-hive-server-capstone.git) 
+ [Server Repo](https://github.com/AngeloThinks/the-hive-server-capstone.git)
+ 
+ [Client Repo](https://github.com/AngeloThinks/the-hive-client-capstone.git)
+ 
+user_name: 'user',
+password: 'User1234!'
  
 ---------------------------------------------------------------------------------
 ## About:
